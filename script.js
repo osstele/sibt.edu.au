@@ -1,0 +1,1 @@
+document.querySelectorAll('.js-form').forEach(function(form){form.addEventListener('submit',function(e){e.preventDefault();var box=form.parentElement.querySelector('.success');if(box){box.style.display='block';box.scrollIntoView({behavior:'smooth',block:'center'});}form.reset();});});
